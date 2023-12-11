@@ -1,0 +1,161 @@
+/* Estilos generales */
+
+/* Agrega un fondo de pantalla a la página */
+body {
+    background-image: url('assets/background1.jpg'); /* Ajusta la ruta según la ubicación real de tu imagen */
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-attachment: fixed; /* Fijar la imagen para que no se desplace con el scroll */
+    font-family: Arial, sans-serif; /* Fuente general de la página */
+}
+
+/* Agrega un margen y un padding a los elementos */
+header, nav, section, aside, footer {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Estilos para el header */
+header {
+    text-align: left;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    text-align: right; /* Alinear elementos a la derecha */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remover margen para alinear correctamente */
+}
+
+nav ul li {
+    display: inline; /* Mantiene los elementos en línea */
+    margin-left: 20px; /* Espacio entre los elementos */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+}
+
+nav a:hover {
+    color: #f00; /* Color al pasar el ratón por encima, ajustar según preferencia */
+}
+
+.sections-container {
+    margin-top: 160px; /* Ajusta este valor según necesites */
+    /* ... otros estilos ... */
+}
+
+section {
+    margin-top: 50px; /* Ajusta este valor según necesites */
+    /* ... otros estilos ... */
+}
+
+
+
+
+.sections-container {
+    display: flex; /* Activar Flexbox */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no caben */
+    gap: 20px; /* Espacio entre las secciones */
+}
+
+/* Estilos para las secciones */
+section {
+    width: 300px; /* Ancho de cada sección */
+    height: 300px; /* Altura de cada sección para mantener un aspecto cuadrado */
+    padding: 20px; /* Relleno dentro de cada sección */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo ligeramente transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    display: flex; /* Usa flexbox para centrar el contenido */
+    flex-direction: column; /* Orientación vertical de los elementos flex */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center; /* Centra el texto */
+    overflow: auto; /* Permite el desplazamiento si el contenido excede el tamaño del cuadrado */
+}
+
+/* Estilos para los títulos h3 dentro de las secciones */
+section h3 {
+    margin: 0 0 10px 0; /* Agrega margen al bottom para separar del párrafo */
+}
+
+/* Estilos para los párrafos dentro de las secciones */
+section p {
+    margin: 0; /* Quita los márgenes para los párrafos */
+}
+
+section img {
+    max-width: 100%; /* Hace que la imagen no exceda el ancho de la sección */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita que la imagen se alinee con el texto como si fuera una línea */
+    margin: 0 auto; /* Centra la imagen si es más pequeña que el ancho de la sección */
+}
+
+
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+}
+
+/* Estilos adicionales si son necesarios */
+.menu_navegacion {
+    background-color: #00539f;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.section_arquitectura_servicios {
+    background-color: #00539f;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+/* Estilos para el footer */
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #f0f0f0;
+}
+
+/* Estilo al h2*/
+
+
+
+
+/* Estilo al p */
+p {
+    margin-top: 90px; /* Ajusta este valor según la cantidad de espacio que necesites */
+    color: #f4f8fc;
+    font-size: 1.2em;
+    text-align: center;
+    /* Elimina la propiedad margin: 0; para que se aplique el margin-top */
+}
+
+
