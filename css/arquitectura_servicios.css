@@ -1,0 +1,82 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00539f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #023e8a;
+    padding: 10px 0;
+    text-align: center; /* Alinea el contenido a la derecha */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Hace que el bloque ul se alinee a la derecha */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido del artículo */
+article {
+    padding: 20px;
+    margin: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #023e8a;
+}
+
+article p, article ul {
+    line-height: 1.6;
+}
+
+article ul {
+    padding-left: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00539f;
+    color: #fff;
+}
+
+img {
+    width: 50%; /* Reduce el tamaño de la imagen a la mitad de su tamaño original */
+    display: block; /* Hace que la imagen sea un bloque (necesario para aplicar margin) */
+    margin-left: auto; /* Empuja la imagen hacia la derecha */
+    margin-right: 0; /* Alinea la imagen a la derecha */
+}
+
+
+

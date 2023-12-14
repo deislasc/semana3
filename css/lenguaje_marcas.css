@@ -1,0 +1,92 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #005fa3;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+article {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+article h2 {
+    color: #005fa3;
+}
+
+article p, article ul {
+    line-height: 1.6;
+}
+
+article ul {
+    padding-left: 40px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+.img-expand {
+    transition: transform 0.3s ease;
+}
+
+.img-expand:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen en un 10% */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0077cc;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

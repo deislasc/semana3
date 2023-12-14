@@ -1,0 +1,74 @@
+/* Reset/Normalización */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables CSS */
+:root {
+    --color-primario: #3498db; /* Azul */
+    --color-secundario: #2c3e50; /* Azul oscuro */
+    --fuente-principal: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Estilos Generales */
+body {
+    font-family: var(--fuente-principal);
+    color: var(--color-secundario);
+    line-height: 1.6;
+}
+
+h1 {
+    color: var(--color-primario);
+    text-align: center;
+}
+
+a {
+    color: var(--color-primario);
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background: var(--color-secundario);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Nav */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; /* Mueve la navegación hacia la derecha */
+    padding: 1rem;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+}
+
+/* Contenedor del Formulario y Estilos del Formulario */
+/* ... (sin cambios) ... */
+
+/* Footer */
+footer {
+    text-align: center; /* Centra el contenido del footer */
+    padding: 1rem 0;
+    background: var(--color-secundario);
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
