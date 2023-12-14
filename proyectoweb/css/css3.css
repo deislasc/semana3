@@ -1,104 +1,74 @@
+/* Reset/Normalización */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables CSS */
+:root {
+    --color-primario: #3498db; /* Azul */
+    --color-secundario: #2c3e50; /* Azul oscuro */
+    --fuente-principal: 'Helvetica Neue', Arial, sans-serif;
+}
+
 /* Estilos Generales */
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #4a4a4a;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background: linear-gradient(to right, #6dd5fa, #ff758c);
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-nav {
-    background-color: #4b6cb7;
-    padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #ff758c;
-    text-decoration: underline;
-}
-
-article {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-}
-
-article:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-article h2 {
-    color: #4b6cb7;
-    text-transform: uppercase;
-}
-
-article p, article ul {
+    font-family: var(--fuente-principal);
+    color: var(--color-secundario);
     line-height: 1.6;
 }
 
-article ul {
-    padding-left: 20px;
-}
-
-img {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 4px;
-    transition: transform 0.3s ease;
-}
-
-img:hover {
-    transform: scale(1.05);
-}
-
-footer {
+h1 {
+    color: var(--color-primario);
     text-align: center;
-    padding: 20px;
-    background-color: #6dd5fa;
+}
+
+a {
+    color: var(--color-primario);
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background: var(--color-secundario);
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
 }
 
-.flotante {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    /* Añade tus propios estilos: color, forma, etc. */
-    transition: transform 0.5s ease;
+/* Nav */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; /* Mueve la navegación hacia la derecha */
+    padding: 1rem;
 }
 
+nav ul li {
+    margin: 0 10px;
+}
 
+/* Main */
+main {
+    padding: 2rem;
+}
+
+/* Contenedor del Formulario y Estilos del Formulario */
+/* ... (sin cambios) ... */
+
+/* Footer */
+footer {
+    text-align: center; /* Centra el contenido del footer */
+    padding: 1rem 0;
+    background: var(--color-secundario);
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}

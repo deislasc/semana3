@@ -158,4 +158,12 @@ p {
     /* Elimina la propiedad margin: 0; para que se aplique el margin-top */
 }
 
+/* Estilo al form en forma de contenedor */
+form {
+    margin-top: 20px; /* Ajusta este valor según la cantidad de espacio que necesites */
+    display: flex; /* Activa Flexbox */
+    flex-direction: column; /* Orientación vertical de los elementos flex */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+}
 
